@@ -42,7 +42,7 @@ const AppSidebar = () => {
             <SidebarMenuButton asChild>
               <Link href="/">
                 <Image src="/favicon.ico" alt="logo" width={20} height={20} />
-                <span>Lama Dev</span>
+                <span className='text-[1rem] font-semibold'>Dashboard UI</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
